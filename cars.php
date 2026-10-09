@@ -6,10 +6,6 @@
     <meta name="description" content="Lab 09 - list of used cars from the exhibition_db database">
     <title>Lab 09</title>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 2em;
-        }
         table, th, td {
             border: 1px solid #444;
 
@@ -61,7 +57,7 @@
         mysqli_close($dbconn);
     }
     else {
-        echo "<p>Unable to connect to the db.</p>"
+        echo "<p>Unable to connect to the db.</p>";
     }
 ?>
 </body>
